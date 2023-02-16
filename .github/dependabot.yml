@@ -9,3 +9,11 @@ updates:
     directory: "/"
     schedule:
       interval: daily
+  - package-ecosystem: "gomod"
+    directory: "/"
+    schedule:
+      interval: daily
+    commit-message:
+      prefix: "chore(go): "
+    reviewers:
+      - "hongweiliu17"
